@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import BookEdit from './BookEdit';
+import useBooksContext from '../hooks/useBooksContext';
 
-function BookShow({ book, deleteBook, updateBook }) {
+function BookShow({ book }) {
+    const { deleteBook, updateBook } = useBooksContext();
     const [showEdit, setShowEdit] = useState(false);
 
     const handleClick = () => {
@@ -13,7 +15,6 @@ function BookShow({ book, deleteBook, updateBook }) {
     }
 
     const handleUpdateBook = (updatedBook) => {
-        console.log(updatedBook);
         updateBook(updatedBook);
         setShowEdit(false);
     }
