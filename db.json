@@ -2,7 +2,7 @@
   "books": [
     {
       "id": 1,
-      "title": "The Great Gatsby",
+      "title": "The Great Gatsbys",
       "author": "F. Scott Fitzgerald",
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
       "year": 1925
@@ -15,11 +15,15 @@
       "year": 1951
     },
     {
-      "title": "The Lord of the Ring",
+      "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "year": 1954,
       "pages": 1170,
       "id": 3
+    },
+    {
+      "title": "fg",
+      "id": 4
     }
   ]
 }
